@@ -1,0 +1,194 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: adarshmaurya@softhinkers.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary : Authentication"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: Authentication"
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Authentication- User Login"
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8251966492,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Authentication- User Login",
+        "description": "",
+        "id": "authentication;authentication--user-login",
+        "after": [
+          {
+            "result": {
+              "duration": 105951661,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 306166463,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Login Activity Is On Screen",
+            "match": {
+              "location": "Authentication.login_Activity_Is_On_Screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121003680,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Enters Valid Username",
+            "match": {
+              "location": "Authentication.user_Enters_Valid_Username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64614788,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Enters Valid Password",
+            "match": {
+              "location": "Authentication.user_Enters_Valid_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73111592,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Click on Login Button",
+            "match": {
+              "location": "Authentication.user_Click_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329452558,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Navigates to Main Activity",
+            "match": {
+              "location": "Authentication.user_Navigates_to_Main_Activity()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@android"
+          },
+          {
+            "line": 23,
+            "name": "@iphone"
+          }
+        ]
+      }
+    ],
+    "name": "Authentication",
+    "description": "As an end user I want to login in the application.",
+    "id": "authentication",
+    "keyword": "Feature",
+    "uri": "Authentication.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@sanityTest"
+      }
+    ]
+  }
+]
