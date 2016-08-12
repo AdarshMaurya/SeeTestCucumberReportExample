@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cucumber-JVM Html Reports - Feature: Make Payment </title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="reporting.css" type="text/css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#tablesorter").tablesorter();
+});
+</script>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-jvm Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>seecucumber</td>
+                          <td>1</td>
+                        <td>12 Aug 2016, 06:04</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="title">
+  <h2>Feature Report</h2>
+  </div>
+
+
+<div class="container-fluid" id="report-summary">
+  <table class="stats-table">
+    <thead>
+  <tr class="header">
+        <th></th>
+    <th id="stats-header-scenarios" colspan="3">Scenarios</th>
+    <th id="stats-header-steps" colspan="7">Steps</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th id="stats-header-key">Feature</th>
+        <th id="stats-header-scenarios-total">Total</th>
+    <th id="stats-header-scenarios-passed">Passed</th>
+    <th id="stats-header-scenarios-failed">Failed</th>
+    <th id="stats-header-steps-total">Total</th>
+    <th id="stats-header-steps-passed"    class="passed">Passed</th>
+    <th id="stats-header-steps-failed"    class="failed">Failed</th>
+    <th id="stats-header-steps-skipped"   class="skipped">Skipped</th>
+    <th id="stats-header-steps-pending"   class="pending">Pending</th>
+    <th id="stats-header-steps-undefined" class="undefined">Undefined</th>
+    <th id="stats-header-steps-missing"   class="missing">Missing</th>
+    <th id="stats-header-duration">Duration</th>
+    <th id="stats-header-status">Status</th>
+  </tr>
+</thead>
+
+        <tr>
+      <td class="tagname"><a id="stats-Make Payment" href="features-MakePayment-feature.html">Make Payment</a></td>
+            <td id="stats-number-scenarios-Make Payment">1</td>
+      <td id="stats-number-scenarios-passed-Make Payment">0</td>
+      <td id="stats-number-scenarios-failed-Make Payment">1</td>
+      <td id="stats-number-steps-Make Payment">10</td>
+      <td id="stats-number-steps-passed-Make Payment">8</td>
+      <td id="stats-number-steps-failed-Make Payment"      class="failed" >1</td>
+      <td id="stats-number-steps-skipped-Make Payment"      class="skipped" >1</td>
+      <td id="stats-number-steps-pending-Make Payment"   >0</td>
+      <td id="stats-number-steps-undefined-Make Payment" >0</td>
+      <td id="stats-number-steps-missing-Make Payment"   >0</td>
+      <td id="stats-duration-Make Payment" class="duration-format">14s 395ms</td>
+      <td id="stats-status-Make Payment" class="failed">Failed</td>
+    </tr>
+  </table>
+</div>
+
+
+<div class="container-fluid" id="report-details">
+  <div class="feature-tags"><a href="sanityTest.html">@sanityTest</a></div>
+  <div class="failed">
+    <div class="feature-line">
+      <span class="feature-keyword">Feature: </span>Make Payment
+    </div>
+  </div>
+  <div class="feature-description">As an end user I want to make payment</div>
+
+      <div class="feature-tags"><a href="android.html">@android</a>, <a href="iphone.html">@iphone</a></div>
+    <div class="passed"><span class="step-keyword">Before </span><i>Hooks.setUp()</i><span class="step-duration"></span></div>
+    <div class="failed"><span class="element-keyword">Scenario: </span><span class="element-name">Make Payment</span></div>
+          <div class="passed"><span class="step-keyword">Given  </span><span class="step-name">User is on Main Activity</span><span class="step-duration">339ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">And  </span><span class="step-name">User clicks on Make Payment</span><span class="step-duration">889ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">And  </span><span class="step-name">User Enters Phone Number</span><span class="step-duration">870ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">And  </span><span class="step-name">User Enters Name</span><span class="step-duration">046ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">And  </span><span class="step-name">User Enters Amount</span><span class="step-duration">066ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">And  </span><span class="step-name">User Selects Country</span><span class="step-duration">860ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">And  </span><span class="step-name">User Clicks Send Payment</span><span class="step-duration">795ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">Then  </span><span class="step-name">Confirmation Dialog Box Pops out</span><span class="step-duration">389ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="failed"><span class="step-keyword">And  </span><span class="step-name">User Clicks On Yes</span><span class="step-duration">10s 137ms</span><div class="output_message"><input class="output_collapse" id="output_16697979" type="checkbox"><label for="output_16697979">com.experitest.client.InternalException: Exception caught while executing click: Element was not identified: 'xpath=//*[@text='Yex']' at zone NATIVE</label><div>	at com.experitest.client.Client.execute(Client.java:176)<br/>	at com.experitest.client.Client.click(Client.java:450)<br/>	at com.example.seecucumber.stepdefinition.MakePayment.user_clicks_on_yes(MakePayment.java:90)<br/>	at ✽.And User Clicks On Yes(features/MakePayment.feature:33)<br/></div></div></div>
+      
+            <div></div>
+      <div></div>
+          <div class="skipped"><span class="step-keyword">Then  </span><span class="step-name">User Balance must decrease</span><span class="step-duration">000ms</span></div>
+      
+            <div></div>
+      <div></div>
+        <div class="failed"><span class="step-keyword">After </span><i>Hooks.Logout()</i><span class="step-duration"></span><div class="output_message"><input class="output_collapse" id="output_29632376" type="checkbox"><label for="output_29632376">com.experitest.client.InternalException: Exception caught while executing click: Element was not identified: 'xpath=//*[@id='logoutButton']' at zone NATIVE</label><div>	at com.experitest.client.Client.execute(Client.java:176)<br/>	at com.experitest.client.Client.click(Client.java:450)<br/>	at com.example.seecucumber.stepdefinition.Hooks.Logout(Hooks.java:120)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br/>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.lang.reflect.Method.invoke(Method.java:606)<br/>	at cucumber.runtime.Utils$1.call(Utils.java:37)<br/>	at cucumber.runtime.Timeout.timeout(Timeout.java:13)<br/>	at cucumber.runtime.Utils.invoke(Utils.java:31)<br/>	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)<br/>	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)<br/>	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)<br/>	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)<br/>	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)<br/>	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)<br/>	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)<br/>	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)<br/>	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)<br/>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)<br/>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)<br/>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)<br/>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)<br/>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)<br/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)<br/>	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)<br/>	at com.example.seecucumber.custom.CustomCucumberRunner.run(CustomCucumberRunner.java:45)<br/>	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)<br/>	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)<br/>	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)<br/>	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)<br/>	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)<br/>	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)<br/></div></div></div>
+    <br>
+  </div>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

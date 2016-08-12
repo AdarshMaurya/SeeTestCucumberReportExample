@@ -20,7 +20,11 @@
 Feature: Make Payment
   As an end user I want to make payment
 
+<<<<<<< HEAD
+  @android @iphone
+=======
   @android @Iphone
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8
   Scenario: Make Payment
     Given User is on Main Activity
     And User clicks on Make Payment

@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
 Built-By: Adarsh
+<<<<<<< HEAD
+Build-Jdk: 1.7.0_51
+=======
 Build-Jdk: 1.8.0_73
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8
 Created-By: Maven Integration for Eclipse
 

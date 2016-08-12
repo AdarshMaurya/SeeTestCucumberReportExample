@@ -1,8 +1,20 @@
 D:\SeeCucumber\src\test\java\com\example\seecucumber\core\AndroidApplication.java
 D:\SeeCucumber\src\test\java\com\example\seecucumber\core\Application.java
+<<<<<<< HEAD
+D:\SeeCucumber\src\test\java\com\example\seecucumber\custom\CustomCucumberRunner.java
+D:\SeeCucumber\src\test\java\com\example\seecucumber\stepdefinition\MakePayment.java
+D:\SeeCucumber\src\test\java\com\example\seecucumber\core\IOSApplication.java
+D:\SeeCucumber\src\test\java\com\example\seecucumber\core\ApplicationDefaultImpl.java
+D:\SeeCucumber\src\test\java\com\example\seecucumber\stepdefinition\RunSeeCuckTest.java
+D:\SeeCucumber\src\test\java\com\example\seecucumber\stepdefinition\Hooks.java
+D:\SeeCucumber\src\test\java\com\example\seecucumber\core\MyClient.java
+D:\SeeCucumber\src\test\java\com\example\seecucumber\stepdefinition\Authentication.java
+D:\SeeCucumber\src\test\java\com\example\seecucumber\custom\AfterSuite.java
+=======
 D:\SeeCucumber\src\test\java\com\example\seecucumber\core\IOSApplication.java
 D:\SeeCucumber\src\test\java\com\example\seecucumber\core\ApplicationDefaultImpl.java
 D:\SeeCucumber\src\test\java\com\example\seecucumber\stepdefinition\RunSeeCuckTests.java
 D:\SeeCucumber\src\test\java\com\example\seecucumber\stepdefinition\Hooks.java
 D:\SeeCucumber\src\test\java\com\example\seecucumber\core\MyClient.java
 D:\SeeCucumber\src\test\java\com\example\seecucumber\stepdefinition\Authentication.java
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8

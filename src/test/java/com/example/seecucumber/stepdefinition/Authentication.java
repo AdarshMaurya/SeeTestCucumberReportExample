@@ -13,6 +13,12 @@ public class Authentication {
 				"xpath=//*[@text='Build Version : 1.0.465']", 0)) {
 
 		}
+<<<<<<< HEAD
+		
+		String workingDir = System.getProperty("user.dir");
+		   System.out.println("Current working directory : " + workingDir);
+=======
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8
 
 	}
 

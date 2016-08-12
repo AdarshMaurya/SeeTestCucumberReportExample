@@ -17,7 +17,11 @@ public class Hooks {
 
 	private int port = 0;
 	private String host = null;
+<<<<<<< HEAD
+	protected  static MyClient client = null;
+=======
 	protected static MyClient client = null;
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8
 	protected Application application = null;
 	protected String usedDeviceName = null;
 
@@ -53,6 +57,21 @@ public class Hooks {
 	}
 
 	private void initReport() {
+<<<<<<< HEAD
+		/*String mainFolder = getProperty("execution.start.time");
+		String suiteName = "";
+		if (mainFolder == null) {
+			mainFolder = "SeeCucumber Tests\\";
+		} else {
+			mainFolder += "\\";
+			suiteName = getProperty("suite.name") + " ";
+		}
+		String reportFolder = getProperty("user.dir") + "\\reports\\"
+				+ mainFolder + suiteName + usedDeviceName.split(":")[1];
+		String reportName = getTestName() + " (data " + dataIndex + ")";
+		client.setReporter("xml", reportFolder, reportName);
+*/
+=======
 		/*
 		 * String mainFolder = getProperty("execution.start.time"); String
 		 * suiteName = ""; if (mainFolder == null) { mainFolder =
@@ -63,6 +82,7 @@ public class Hooks {
 		 * " (data " + dataIndex + ")"; client.setReporter("xml", reportFolder,
 		 * reportName);
 		 */
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8
 	}
 
 	private void initProjectBaseDirectory() {
@@ -81,8 +101,13 @@ public class Hooks {
 
 	private void initPort() {
 		if (port == 0) {
+<<<<<<< HEAD
+			port = Integer.parseInt(getProperty("device.port"));
+			
+=======
 			// port = Integer.valueOf(getProperty("device.port"));
 			port = 8889;
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8
 		}
 	}
 
@@ -112,7 +137,10 @@ public class Hooks {
 		}
 		return null;
 	}
+<<<<<<< HEAD
+=======
 
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8
 	@After
 	public void Logout() throws NumberFormatException, IOException {
 		client.click("NATIVE", "xpath=//*[@id='logoutButton']", 0, 1);

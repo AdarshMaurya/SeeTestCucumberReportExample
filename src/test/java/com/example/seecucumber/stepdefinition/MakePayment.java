@@ -86,7 +86,12 @@ public class MakePayment {
 	@And("^User Clicks On Yes$")
 	public void user_clicks_on_yes() throws Throwable {
 
+<<<<<<< HEAD
+		//client.click("NATIVE", "xpath=//*[@text='Yes']", 0, 1);
+		client.click("NATIVE", "xpath=//*[@text='Yex']", 0, 1);
+=======
 		client.click("NATIVE", "xpath=//*[@text='Yes']", 0, 1);
+>>>>>>> 62cfc4f486b1feb4c1669f100261d1e14959c5f8
 
 	}
 
